@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "personal-website-9b5b0"
+    "default": "personal-website-9b5b0",
+    "personal": "personal-website-9b5b0"
   }
 }
