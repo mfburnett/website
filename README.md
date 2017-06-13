@@ -1,11 +1,9 @@
-Project Template
+Overview
 ========================================
 
-#### _Because web development doesn't need to be a pain._
+This website is taken from the [Minimill](https://minimill.co) project template. Thanks to [Dan Schlosser](https://schlosser.io/) for walking me through fundamental web development and helping me get set up!
 
-The [Minimill](https://minimill.co) project template is the best way to build static sites fast.  With one command, build a static page using [Gulp][gulp], [Handlebars.js][handlebars], and [SCSS][scss].
-
-_Other Versions: [ES6](https://github.com/minimill/project-template/tree/es6), [Minimill internal](https://github.com/minimill/project-template/tree/minimill)_
+I've left the bottom instructions for anyone interested.
 
 ## Features
 
