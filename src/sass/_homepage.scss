@@ -1,0 +1,40 @@
+.home {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	p {
+		margin-bottom: 0.75rem;
+		
+		display: inline-block;
+
+		a { 
+			transition: 0.2s ease all;
+			display: block;
+		}
+
+		&::after {
+			content: ' ';
+			height: 2px;
+			width: 100%;
+			background-color: $dark-blue;
+			display: block;
+			transform: scale(0,1);
+			transition: 0.2s ease all;
+		}
+
+		&:hover {
+			a {
+				transform: translate3d(0,-0.2rem,0);
+			}
+
+			&::after {
+				transform: none;
+			}
+		}
+	}
+}
+
